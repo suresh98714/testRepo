@@ -19,7 +19,8 @@ public class GoogleSearchPage {
 	WebElement googleSearch;
 	
 	public void googleeSearch(){
-		googleSearch.sendKeys("Google Testing",Keys.ENTER);		
+		googleSearch.sendKeys("Google Testing",Keys.ENTER);
+		System.out.println("Entered text in Google Search");
 	}
 
 }
