@@ -1,2 +1,3 @@
 /target/
-
+/TestFolder/
+TestFolder/*.json
