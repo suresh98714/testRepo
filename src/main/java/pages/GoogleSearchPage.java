@@ -21,9 +21,8 @@ public class GoogleSearchPage {
 	public void googleeSearch(){
 		googleSearch.sendKeys("Google Testing",Keys.ENTER);
 		System.out.println("Entered text in Google Search");
-
 		System.out.println("Google Test Done");
-		System.out.println("stash logic, just testing");
+		
 
 	}
 
