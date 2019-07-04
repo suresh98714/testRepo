@@ -22,6 +22,7 @@ public class GoogleSearchPage {
 		googleSearch.sendKeys("Google Testing",Keys.ENTER);
 		System.out.println("Entered text in Google Search");
 
+		System.out.println("Google Test Done");
 
 	}
 
