@@ -1,1 +1,7 @@
 /target/
+<<<<<<< HEAD
+=======
+/TestFolder/
+TestFolder/*.json
+
+>>>>>>> test
