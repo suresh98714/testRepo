@@ -25,7 +25,6 @@ public class GoogleSearchPage {
 
 		System.out.println("Google Test Finishes");
 
-
 	}
 
 }
