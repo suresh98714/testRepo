@@ -1,16 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
-  <test name="Default test(failed)">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite]" data-provider-thread-count="2">
+  <listeners>
+    <listener class-name="listeners.ITestListenerImpl"/>
+  </listeners>
+  <test name="Test(failed)">
     <classes>
       <class name="runner.TestRunner">
         <methods>
           <include name="setupClass"/>
           <include name="tearDownClass"/>
-          <include name="feature" invocation-numbers="0"/>
+          <include name="feature" invocation-numbers="1 0 2"/>
           <include name="beforesute"/>
         </methods>
       </class> <!-- runner.TestRunner -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

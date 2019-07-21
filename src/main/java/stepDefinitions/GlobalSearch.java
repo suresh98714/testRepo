@@ -9,6 +9,7 @@ import org.openqa.selenium.WebDriver;
 import browserUtility.Browser;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
+import pages.BaseUtil;
 import pages.YahooSearchPage;
 import utility.PropertyFileReader;
 
@@ -19,7 +20,7 @@ public class GlobalSearch {
 	public void open_Yahoo_Page() throws InterruptedException, FileNotFoundException, IOException {
 		Properties newPROP=prop.getproperty();
 		driver=Browser.openBrowser(driver, newPROP.getProperty("browserName"),newPROP.getProperty("url"));
-		
+				
 	}
 
 	@Then("^Check \"([^\"]*)\" in yahoo search$")

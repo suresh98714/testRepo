@@ -7,7 +7,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
 import org.openqa.selenium.support.PageFactory;
 
-public class GoogleSearchPage {
+public class GoogleSearchPage{
 	
 	WebDriver driver;
 	public GoogleSearchPage(WebDriver driver) {
