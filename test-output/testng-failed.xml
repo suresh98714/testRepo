@@ -10,7 +10,7 @@
         <methods>
           <include name="setupClass"/>
           <include name="tearDownClass"/>
-          <include name="feature" invocation-numbers="1 0 2"/>
+          <include name="feature" invocation-numbers="0 1 2"/>
           <include name="beforesute"/>
         </methods>
       </class> <!-- runner.TestRunner -->
